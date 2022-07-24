@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="doador">
+        <label for="tipoSanguineoDoador">Doador :</label>
+        <select id="tipoSanguineoDoador">
+            <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+            <option value="O">O</option>
+        </select>
+    </div>
+    <div class="receptor">
+        <label for="tipoSanguineoReceptor">Receptor :</label>
+        <select id="tipoSanguineoReceptor">
+            <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+            <option value="O">O</option>
+        </select>
+    </div>
+
+    <button class="classeGenerica" id="btnCalculaTipoSanguineo"  type="button"
+        onclick="leiaInputTipoSanguineo()">click</button>
+
+    <span id="resultado"></span>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
